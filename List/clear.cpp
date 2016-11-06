@@ -10,7 +10,7 @@ int List<T>::clear()
 template <typename T>
 List<T>::~List()
 {
-	clear();
-	delete header;
-	delete trailer;
+	clear();          // clear out contents
+	delete header;   // release header
+	delete trailer;  // release trailer
 }
