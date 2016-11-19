@@ -8,5 +8,5 @@ class AVL : public BST<T>
 public:
 	BinNodePosi(T) insert(const T &e);  // 重写
 	bool remove(const T &e);            // 重写
-	// 其他接口同BST
+	// 其他接口同
 }
